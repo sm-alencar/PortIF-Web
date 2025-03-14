@@ -1,0 +1,88 @@
+*{
+
+    margin: 0;
+    
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+
+    background-color: #0cce6b;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#logo{
+
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: auto;
+
+}
+
+.content {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.contentCard {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 5%;
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.imgPerfil_nome {
+
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+#imgPerfil {
+
+    width: 8rem;
+    margin-right: 2rem;
+
+}
+
+.infoPerfil {
+
+    font-size: 2rem;
+
+}
+
+#infoPerfil {
+
+    margin-top: 10%;
+
+}
