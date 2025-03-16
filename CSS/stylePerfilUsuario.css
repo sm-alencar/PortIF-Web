@@ -20,7 +20,7 @@ body {
 
 }
 
-header{
+header {
 
     background-color: #0cce6b;
 
@@ -28,15 +28,93 @@ header{
     width: 100%;
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
 }
 
-#logo{
+.blank {
+
+    width: 5%;
+
+}
+
+#logo {
 
     height: 100%;
     width: auto;
+
+}
+
+.dropdown {
+
+    height: 50%;
+    width: 5%;
+
+    position: relative;
+    display: inline-block;
+
+}
+
+#menuButton {
+
+    height: 100%;
+    
+    border: none;
+    cursor: pointer;
+
+    position: relative;
+    display: inline-block;
+
+}
+
+#menuIcon {
+
+    height: 100%;
+    width: auto;
+
+}
+
+.dropdownSector {
+
+    width: 100%;
+
+    display: none;
+
+    background-color: white;
+
+}
+
+.dropdownSector a {
+
+    width: 100%;
+
+    text-decoration: none;
+    color: black;
+
+    margin-bottom: 10%;
+
+    display: block;
+
+}
+
+.dropdown:hover .dropdownSector {
+
+    display: block;
+
+}
+
+#exit {
+
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    
+    border: none;
+    cursor: pointer;
+
+    background-color: red;
 
 }
 
