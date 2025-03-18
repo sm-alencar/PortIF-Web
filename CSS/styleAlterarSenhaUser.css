@@ -1,4 +1,4 @@
-*{
+* {
 
     margin: 0;
 
@@ -83,6 +83,8 @@ header {
 
     background-color: white;
 
+    border-radius: 0.3rem;
+
 }
 
 .dropdownSector a {
@@ -92,9 +94,17 @@ header {
     text-decoration: none;
     color: black;
 
+    border-radius: 0%;
+
     margin-bottom: 10%;
 
     display: block;
+
+}
+
+.dropdownSector a:hover {
+
+    background-color: rgb(218, 218, 218);
 
 }
 
@@ -110,11 +120,17 @@ header {
 
     display: flex;
     justify-content: center;
-    
-    border: none;
-    cursor: pointer;
 
     background-color: red;
+
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+
+}
+
+#exit:hover {
+
+    background-color: rgb(213, 0, 0);
 
 }
 
@@ -151,7 +167,7 @@ header {
 
 }
 
-.pageTitle{
+.pageTitle {
 
     display: flex;
     justify-content: center;
@@ -163,7 +179,7 @@ header {
 
 }
 
-.passwordChangeField{
+.passwordChangeField {
 
     display: flex;
     flex-direction: column;
@@ -173,7 +189,7 @@ header {
 
 }
 
-form{
+form {
 
     display: flex;
     flex-direction: column;
@@ -181,7 +197,7 @@ form{
 
 }
 
-input{
+input {
 
     height: 1%;
     width: 75%;
@@ -196,7 +212,7 @@ input{
 
 }
 
-.buttonArea{
+.buttonArea {
 
     width: 100%;
     height: 23%;
@@ -208,7 +224,7 @@ input{
 
 }
 
-a{
+a {
 
     width: 40%;
     height: 100%;
@@ -222,7 +238,7 @@ a{
 
 }
 
-button{
+button {
 
     width: 100%;
     height: 100%;
@@ -242,12 +258,12 @@ button{
 
 }
 
-button:hover{
+button:hover {
 
     background-color: #10c266;
 
 }
 
-#upperButton{
+#upperButton {
     margin-bottom: 5%;
 }
