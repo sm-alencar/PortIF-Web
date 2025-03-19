@@ -1,7 +1,6 @@
 * {
-
     margin: 0;
-
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -36,6 +35,8 @@ header {
 .blank {
 
     width: 5%;
+    margin: 0%;
+    padding: 0%;
 
 }
 
@@ -194,7 +195,7 @@ footer {
     margin: auto;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
-    background-color: #fff;
+    background-color: #0cce6b;
 }
 
 /* Cabeçalho da tabela */
@@ -281,7 +282,7 @@ button:hover {
 
 }
 .d-block{
-width: 30rem;
+width: 100%;
 height: auto;
 }
 /* Ajuste do carrossel */
