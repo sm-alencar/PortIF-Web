@@ -1,53 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="../resources/img/PortifLogo.png">
+        <link rel="stylesheet" href="../CSS/style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>PortIF - Início</title>
     </head>
     </div>
     <body> 
         <header>
             <div class="blank"></div>
-            <img id="logo" src="../resources/iLogosec.png" alt="">
+            <img id="logo" src="../resources/img/Logosec.png" alt="">
             <div class="dropdown">
-                <button class="normalButton" id="menuButton"><img id="menuIcon" src="../resources/img/menu.png" alt=""></button>
+                <button id="menuButton"><img id="menuIcon" src="../resources/img/menu.png" alt=""></button>
                 <div class="dropdownSector">
                     <a href="telainicial.html">Início</a>
                     <a href="perfilUsuario.html">Perfil</a>
                     <a href="alterarSenhaUser.html">Alterar<br>senha</a>
                     <a href="sobreNos.html">Sobre nós</a>
-                    <a id="exit" href="index.html">Sair</a>
+                    <a id="exit" href="../index.html">Sair</a>
                 </div>
             </div>
         </header>
         <div class="content">
             <div class="contentCard">
                 <div class ="img-nome">
-                    <img id="user" src="user.jpg" alt="">
+                    <img id="user" src="../resources/img/imgPerfil.png" alt="">
                     <p>Nome completo</p>
-
                 </div>
-                <div class="descricao"> <p>Apenas escolha a opção de gerar código</p><p>se não conseguir gerar o QR-CODE</p> </div>
-               
-                <div class="buttons">
-                    <button type="button" class="button">
-                        <p>Gerar</p><p>QR-CODE</p>
-                        <img src="qr-code-.jpg" class="img-qrcode" alt="...">
-                    </button>
-                   
-                    <button type="button" class="button">  
-                        <p>Gerar</p> <p>código</p>
-                        <img src="senha.jpg" class="img-senha" alt=""> 
-                    </button>
-
-        
+                <div class="descricao">
+                    <p>Apenas escolha a opção de gerar código</p><p>se não conseguir gerar o QR-CODE</p>
+                </div>
+                <div class="buttonArea">
+                    <a href="gerarQRCode.html">
+                        <button id="contentCardButton">
+                            <p id="pButton">Gerar<br>QR-CODE</p>
+                            <img src="../resources/img/qr-code-.jpg" class="img-qrcode" alt="">
+                        </button>
+                    </a>
+                    <a href="gerarCodigo.html">
+                        <button id="contentCardButton">  
+                            <p id="pButton">Gerar<br>código</p>
+                            <img src="../resources/img/senha.jpg" class="img-senha" alt=""> 
+                        </button>
+                    </a>
                 </div>
             </div>
-                
-        
         </div>  
-        
     </body>
 </html>
