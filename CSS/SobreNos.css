@@ -280,3 +280,7 @@ button:hover {
     background-color: #10c266;
 
 }
+.d-block{
+width: 30rem;
+height: auto;
+}
