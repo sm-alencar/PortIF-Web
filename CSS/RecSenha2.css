@@ -1,6 +1,10 @@
 *{
+
     margin: 0;
     padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+
 }
 
 html {
@@ -13,13 +17,23 @@ body {
     height: 100%;
 }
 
-header{
+header {
 
     background-color: #0cce6b;
-    height: 10%;
+
+    height: 12%;
     width: 100%;
+    
     display: flex;
+    justify-content: center;
     align-items: center;
+
+}
+
+#logo {
+
+    height: 100%;
+    width: auto;
 
 }
 
