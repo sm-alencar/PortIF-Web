@@ -13,15 +13,26 @@ body {
     height: 100%;
 }
 
-header{
+header {
 
     background-color: #0cce6b;
-    height: 10%;
+
+    height: 12%;
     width: 100%;
+    
     display: flex;
+    justify-content: center;
     align-items: center;
 
 }
+
+#logo {
+
+    height: 100%;
+    width: auto;
+
+}
+
 form {
     max-width: 700px;
     margin: 50px auto;
