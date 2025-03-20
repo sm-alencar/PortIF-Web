@@ -152,6 +152,7 @@ header {
 .contentCard {
 
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
 
@@ -181,24 +182,17 @@ header {
 
 }
 
-footer {
+.footer {
     background-color: #0cce6b;
     color: #000000;
     text-align: center;
     padding: 2%;
 }
-
-/* Estilização geral da tabela */
-.table {
-    width: 60%;
-    border-collapse: collapse;
-    margin: auto;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+.table thead tr th{
     background-color: #0cce6b;
+    color: black;
 }
 
-/* Cabeçalho da tabela */
 .table thead {
     background-color: #0cce6b;
     color: black;
@@ -214,6 +208,7 @@ footer {
 .table th,
 .table td {
     border: 1px solid #ddd;
+    margin-top: 3%;
 }
 
 /* Células */
@@ -291,7 +286,7 @@ height: auto;
     max-width: 600px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: transparent;
 }
 
 /* Suavizando a transição de fade */
